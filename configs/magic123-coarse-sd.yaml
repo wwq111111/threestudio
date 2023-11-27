@@ -79,6 +79,8 @@ system:
   guidance_3d_type: "zero123-unified-guidance"
   guidance_3d:
     guidance_type: "sds"
+    pretrained_model_name_or_path: "bennyguo/zero123-diffusers"
+
     guidance_scale: 5.0
     min_step_percent: 0.2
     max_step_percent: 0.6
